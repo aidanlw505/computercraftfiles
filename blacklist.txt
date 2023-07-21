@@ -18,3 +18,7 @@ minecraft:andesite
 minecraft:granite
 byg:soapstone
 minecraft:cobbled_deepslate
+minecraft:tuff
+minecraft:smooth_basalt
+quark:limestone
+xycraft_world:kivi
