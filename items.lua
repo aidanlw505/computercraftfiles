@@ -1,4 +1,4 @@
-for i = 0, 15 do
+for i = 1, 16 do
     local name, count
     name, count = turtle.getItemDetail(i)
 
