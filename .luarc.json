@@ -1,3 +1,6 @@
 {
     "workspace.library": ["/home/awillingham/LLS-Addons/addons/cc-tweaked"],
+    "diagnostics.globals": [
+        "vim",
+    ],
 }

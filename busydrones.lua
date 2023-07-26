@@ -7,7 +7,7 @@ DIRECTIONS = {
 }
 
 function setDirection(direction)
-    local currentDirection = getDirection()
+    if currentDirection == nil then currentDirection = getDirection() end
 
     local ddirection = (direction - currentDirection) % 4
 

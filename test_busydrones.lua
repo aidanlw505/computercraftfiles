@@ -1,10 +1,10 @@
 -- Load the busydrones library (assuming it's in the same directory)
-os.loadAPI("computercraftfiles/busydrones")
+os.loadAPI("busydrones")
 
 -- Function to display the current direction
 local function displayCurrentDirection()
-    local currentDir = busydrones.getDirection()
-    print("Current Direction: " .. currentDir)
+    CurrentDirection = busydrones.getDirection()
+    print("Current Direction: " .. CurrentDirection)
 end
 
 -- Test setDirection and getDirection functions
