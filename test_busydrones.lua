@@ -1,5 +1,5 @@
 -- Load the busydrones library (assuming it's in the same directory)
-os.loadAPI("computercraftfiles/busydrones")
+os.loadAPI("computercraftfiles/busydrones.lua")
 
 -- Function to display the current direction
 local function displayCurrentDirection()
