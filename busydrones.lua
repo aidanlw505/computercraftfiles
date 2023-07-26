@@ -6,7 +6,7 @@ local directions = {
     WEST = 3 -- Negative X
 }
 
-local function setDirection(direction)
+function setDirection(direction)
     local currentDirection = getDirection()
 
     local ddirection = (direction - currentDirection) % 4
@@ -26,7 +26,7 @@ local function setDirection(direction)
     end
 end
 
-local function getDirection()
+function getDirection()
     -- turn right until there is no block in front of you,
     -- if you are surrounded by blocks, break the one in front
     for i = 1, 5, 1 do if turtle.detect() then turtle.turnRight() end end
