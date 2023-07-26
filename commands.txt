@@ -1,3 +1,5 @@
 pastebin get wPtGKMam github
+rm ./computercraftfiles
 github aidanlw505 computercraftfiles ./ ./
 quarry -file ./computercraftfiles/quarry.conf
+shell.run("gps", "host", )
