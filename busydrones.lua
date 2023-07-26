@@ -1,5 +1,5 @@
 ---@diagnostic disable: unused-function, unused-local
-local directions = {
+DIRECTIONS = {
     NORTH = 0, -- Positive Z
     EAST = 1, -- Positive X
     SOUTH = 2, -- Negative Z
@@ -40,13 +40,13 @@ function getDirection()
     local dz = newZ - oldZ
 
     if dx > 0 then
-        return directions.NORTH
+        return DIRECTIONS.NORTH
     elseif dx < 0 then
-        return directions.SOUTH
+        return DIRECTIONS.SOUTH
     elseif dz > 0 then
-        return directions.EAST
+        return DIRECTIONS.EAST
     else
-        return directions.WEST
+        return DIRECTIONS.WEST
     end
 end
 

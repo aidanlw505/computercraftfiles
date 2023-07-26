@@ -12,19 +12,19 @@ function testDirectionFunctions()
     displayCurrentDirection()
 
     print("Setting direction to EAST...")
-    busydrones.setDirection("EAST")
+    busydrones.setDirection(DIRECTIONS.EAST)
     displayCurrentDirection()
 
     print("Setting direction to SOUTH...")
-    busydrones.setDirection("SOUTH")
+    busydrones.setDirection(DIRECTIONS.SOUTH)
     displayCurrentDirection()
 
     print("Setting direction to WEST...")
-    busydrones.setDirection("WEST")
+    busydrones.setDirection(DIRECTIONS.WEST)
     displayCurrentDirection()
 
     print("Setting direction to NORTH...")
-    busydrones.setDirection("NORTH")
+    busydrones.setDirection(DIRECTIONS.NORTH)
     displayCurrentDirection()
 end
 
